@@ -1,3 +1,4 @@
+let mapleader=","
 set nocompatible
 
 set number
@@ -141,3 +142,4 @@ set showcmd
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
